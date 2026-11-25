@@ -1,1 +1,0 @@
-/home/ubuntu/UR_simulation/ros2_ws/build/ur_simulation/ament_cmake_core/ur_simulationConfig-version.cmake
