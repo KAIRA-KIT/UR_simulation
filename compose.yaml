@@ -1,0 +1,22 @@
+services:
+  ur_mujoco:
+    image: ur_mujoco
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    network_mode: host
+    ipc: host
+    environment:
+      DISPLAY: ${DISPLAY:-:0}
+    devices:
+      - /dev/dri:/dev/dri
+    entrypoint: zsh
+    stdin_open: true
+    tty: true
+    volumes:
+      - type: bind
+        source: .
+        target: /home/ubuntu/UR_simulation
+      - type: bind
+        source: /tmp/.X11-unix
+        target: /tmp/.X11-unix

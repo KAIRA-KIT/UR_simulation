@@ -1,0 +1,107 @@
+[0.000000] (-) TimerEvent: {}
+[0.000255] (ur_simulation) JobQueued: {'identifier': 'ur_simulation', 'dependencies': OrderedDict()}
+[0.000299] (ur_simulation) JobStarted: {'identifier': 'ur_simulation'}
+[0.058861] (ur_simulation) JobProgress: {'identifier': 'ur_simulation', 'progress': 'cmake'}
+[0.069906] (ur_simulation) JobProgress: {'identifier': 'ur_simulation', 'progress': 'build'}
+[0.071188] (ur_simulation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/UR_simulation/ros2_ws/build/ur_simulation', '--', '-j8', '-l8'], 'cwd': '/home/ubuntu/UR_simulation/ros2_ws/build/ur_simulation', 'env': OrderedDict({'HOSTNAME': 'youssef-adham-Inspiron-7306-2n1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/UR_simulation', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/ubuntu/UR_simulation/ros2_ws/build/ur_simulation', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099347] (-) TimerEvent: {}
+[0.199808] (-) TimerEvent: {}
+[0.300200] (-) TimerEvent: {}
+[0.400682] (-) TimerEvent: {}
+[0.454411] (ur_simulation) StdoutLine: {'line': b'Built target ament_cmake_python_symlink_ur_simulation\n'}
+[0.500802] (-) TimerEvent: {}
+[0.601026] (-) TimerEvent: {}
+[0.610531] (ur_simulation) StdoutLine: {'line': b'running egg_info\n'}
+[0.622190] (ur_simulation) StdoutLine: {'line': b'writing ur_simulation.egg-info/PKG-INFO\n'}
+[0.622574] (ur_simulation) StdoutLine: {'line': b'writing dependency_links to ur_simulation.egg-info/dependency_links.txt\n'}
+[0.635231] (ur_simulation) StdoutLine: {'line': b'writing top-level names to ur_simulation.egg-info/top_level.txt\n'}
+[0.685377] (ur_simulation) StdoutLine: {'line': b"reading manifest file 'ur_simulation.egg-info/SOURCES.txt'\n"}
+[0.685773] (ur_simulation) StdoutLine: {'line': b"writing manifest file 'ur_simulation.egg-info/SOURCES.txt'\n"}
+[0.701072] (-) TimerEvent: {}
+[0.703661] (ur_simulation) StdoutLine: {'line': b'Built target ament_cmake_python_build_ur_simulation_egg\n'}
+[0.712698] (ur_simulation) CommandEnded: {'returncode': 0}
+[0.713119] (ur_simulation) JobProgress: {'identifier': 'ur_simulation', 'progress': 'install'}
+[0.718813] (ur_simulation) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/UR_simulation/ros2_ws/build/ur_simulation'], 'cwd': '/home/ubuntu/UR_simulation/ros2_ws/build/ur_simulation', 'env': OrderedDict({'HOSTNAME': 'youssef-adham-Inspiron-7306-2n1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/UR_simulation', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/ubuntu/UR_simulation/ros2_ws/build/ur_simulation', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.723897] (ur_simulation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.724206] (ur_simulation) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.724371] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/environment/pythonpath.sh\n'}
+[0.724491] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/environment/pythonpath.dsv\n'}
+[0.724775] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/lib/python3.12/site-packages/ur_simulation-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[0.724860] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/lib/python3.12/site-packages/ur_simulation-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[0.724947] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/lib/python3.12/site-packages/ur_simulation-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[0.725030] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/lib/python3.12/site-packages/ur_simulation-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[0.725322] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/lib/python3.12/site-packages/ur_simulation/__init__.py\n'}
+[0.725401] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/lib/python3.12/site-packages/ur_simulation/joint_client.py\n'}
+[0.725490] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/lib/python3.12/site-packages/ur_simulation/joint_server.py\n'}
+[0.725595] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/lib/ur_simulation/joint_server.py\n'}
+[0.725672] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/lib/ur_simulation/joint_client.py\n'}
+[0.726436] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/table.obj\n'}
+[0.726525] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/table.obj.mtl\n'}
+[0.726602] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/ur10e/base_0.obj\n'}
+[0.726678] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/ur10e/base_1.obj\n'}
+[0.726752] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/ur10e/forearm_0.obj\n'}
+[0.726831] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/ur10e/forearm_1.obj\n'}
+[0.726906] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/ur10e/forearm_2.obj\n'}
+[0.726992] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/ur10e/forearm_3.obj\n'}
+[0.727089] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/ur10e/shoulder_0.obj\n'}
+[0.727177] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/ur10e/shoulder_1.obj\n'}
+[0.727256] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/ur10e/shoulder_2.obj\n'}
+[0.727328] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/ur10e/upperarm_0.obj\n'}
+[0.727413] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/ur10e/upperarm_1.obj\n'}
+[0.727505] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/ur10e/upperarm_2.obj\n'}
+[0.727600] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/ur10e/upperarm_3.obj\n'}
+[0.727694] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/ur10e/wrist1_0.obj\n'}
+[0.727792] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/ur10e/wrist1_1.obj\n'}
+[0.727876] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/ur10e/wrist1_2.obj\n'}
+[0.727981] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/ur10e/wrist2_0.obj\n'}
+[0.728074] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/ur10e/wrist2_1.obj\n'}
+[0.728161] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/ur10e/wrist2_2.obj\n'}
+[0.728257] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/ur10e/wrist3.obj\n'}
+[0.728351] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/ur5e/base_0.obj\n'}
+[0.728446] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/ur5e/base_1.obj\n'}
+[0.728540] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/ur5e/forearm_0.obj\n'}
+[0.728633] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/ur5e/forearm_1.obj\n'}
+[0.728726] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/ur5e/forearm_2.obj\n'}
+[0.728819] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/ur5e/forearm_3.obj\n'}
+[0.728914] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/ur5e/shoulder_0.obj\n'}
+[0.729011] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/ur5e/shoulder_1.obj\n'}
+[0.729111] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/ur5e/shoulder_2.obj\n'}
+[0.729201] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/ur5e/upperarm_0.obj\n'}
+[0.729295] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/ur5e/upperarm_1.obj\n'}
+[0.729400] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/ur5e/upperarm_2.obj\n'}
+[0.729479] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/ur5e/upperarm_3.obj\n'}
+[0.729570] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/ur5e/wrist1_0.obj\n'}
+[0.729665] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/ur5e/wrist1_1.obj\n'}
+[0.729759] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/ur5e/wrist1_2.obj\n'}
+[0.729865] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/ur5e/wrist2_0.obj\n'}
+[0.729944] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/ur5e/wrist2_1.obj\n'}
+[0.730041] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/ur5e/wrist2_2.obj\n'}
+[0.730136] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/assets/ur5e/wrist3.obj\n'}
+[0.730227] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/scene_ur10e.xml\n'}
+[0.730317] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/scene_ur5e.xml\n'}
+[0.730404] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/ur10e.xml\n'}
+[0.730490] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/ur5e.xml\n'}
+[0.730581] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/models/workspace.xml\n'}
+[0.730733] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ament_index/resource_index/package_run_dependencies/ur_simulation\n'}
+[0.730874] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ament_index/resource_index/parent_prefix_path/ur_simulation\n'}
+[0.731026] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/environment/ament_prefix_path.sh\n'}
+[0.731154] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/environment/ament_prefix_path.dsv\n'}
+[0.731278] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/environment/path.sh\n'}
+[0.731397] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/environment/path.dsv\n'}
+[0.731516] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/local_setup.bash\n'}
+[0.731633] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/local_setup.sh\n'}
+[0.731746] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/local_setup.zsh\n'}
+[0.731859] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/local_setup.dsv\n'}
+[0.731949] (ur_simulation) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/package.dsv\n'}
+[0.737860] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ament_index/resource_index/packages/ur_simulation\n'}
+[0.738040] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/cmake/ur_simulationConfig.cmake\n'}
+[0.738158] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/cmake/ur_simulationConfig-version.cmake\n'}
+[0.738242] (ur_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/share/ur_simulation/package.xml\n'}
+[0.774724] (ur_simulation) StdoutLine: {'line': b"Listing '/home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/lib/python3.12/site-packages/ur_simulation'...\n"}
+[0.774861] (ur_simulation) StdoutLine: {'line': b"Compiling '/home/ubuntu/UR_simulation/ros2_ws/install/ur_simulation/lib/python3.12/site-packages/ur_simulation/joint_client.py'...\n"}
+[0.780451] (ur_simulation) CommandEnded: {'returncode': 0}
+[0.801152] (-) TimerEvent: {}
+[0.901491] (-) TimerEvent: {}
+[1.001945] (-) TimerEvent: {}
+[1.056795] (ur_simulation) JobEnded: {'identifier': 'ur_simulation', 'rc': 0}
+[1.063827] (-) EventReactorShutdown: {}

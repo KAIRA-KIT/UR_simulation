@@ -1,0 +1,30 @@
+common:
+  before_commands:
+    - source /opt/ros/jazzy/setup.zsh
+    - source ~/UR_simulation/ros2_ws/install/setup.zsh
+
+  default_window: move_robot
+parameters: {}
+
+windows:
+  - name: action_server
+    layout: tiled
+    splits:
+      - commands:
+          - source /opt/ros/jazzy/setup.zsh
+          - source ~/UR_simulation/ros2_ws/install/setup.zsh
+          - ros2 run ur_simulation joint_server.py --ros-args -p robot:=ur10e
+
+  - name: move_robot
+    layout: tiled
+    splits:
+      - commands:
+          - source /opt/ros/jazzy/setup.zsh
+          - source ~/UR_simulation/ros2_ws/install/setup.zsh
+          - ros2 run ur_simulation joint_client.py
+
+  - name: shell
+    layout: tiled
+    splits:
+      - commands:
+        - source /opt/ros/jazzy/setup.zsh

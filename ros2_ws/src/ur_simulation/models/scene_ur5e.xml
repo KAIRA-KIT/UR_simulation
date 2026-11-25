@@ -1,0 +1,4 @@
+<mujoco model="ur5e scene">
+  <include file="ur5e.xml" />
+  <include file="workspace.xml" />
+</mujoco>
