@@ -4,7 +4,7 @@ MuJoCo simulation of the Universal Robots UR10e and UR5e arms, controlled with R
 
 ## Usage
 
-Prerequisites: a Linux machine with an X11 display and Docker with Docker Compose.
+![UR10e arm mounted on a table in the MuJoCo viewer](docs/images/ur10e_mujoco.png)
 
 ### 1. Start the container
 
