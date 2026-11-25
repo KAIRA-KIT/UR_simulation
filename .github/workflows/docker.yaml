@@ -1,0 +1,24 @@
+name: Docker CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  #this repo has a single compose file in its root directory, which builds docker/Dockerfile
+  build:
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      #checks wether the compose file has syntax errors
+      - name: Validate compose file
+        run: docker compose -f compose.yaml config --quiet
+
+      #checks wether the image (docker/Dockerfile) builds cleanly
+      - name: Build image
+        run: docker compose -f compose.yaml build

@@ -1,0 +1,59 @@
+name: ROS 2 CI
+
+#runs on any pull request and runs after merges or pushes to main branch
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+#
+jobs:
+  ros2:
+    runs-on: ubuntu-24.04
+
+    #all run steps are executed inside the ROS 2 workspace of this repo
+    defaults:
+      run:
+        working-directory: ros2_ws
+
+    steps:
+      #downloads repository into workspace
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      #installs ROS 2 Jazzy to ubuntu workspace with standard build tools like colcon and rosdep
+      - name: Setup ROS 2
+        uses: ros-tooling/setup-ros@v0.7
+        with:
+          required-ros-distributions: jazzy
+
+      #reads and installs the system dependencies of every package
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          rosdep update
+          rosdep install \
+            --from-paths src \
+            --ignore-src \
+            --rosdistro jazzy \
+            -y
+
+      #compiles/ builds every package of the workspace
+      - name: Build
+        shell: bash
+        run: |
+          source /opt/ros/jazzy/setup.bash
+          colcon build \
+            --symlink-install \
+            --event-handlers console_direct+
+
+      #runs each package's tests (if available)
+      #skips unnecessary code style checks
+      - name: Test
+        shell: bash
+        run: |
+          source /opt/ros/jazzy/setup.bash
+          source install/setup.bash
+          colcon test --ctest-args -LE linter
+          colcon test-result --verbose
